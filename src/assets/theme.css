@@ -1,0 +1,19 @@
+:root {
+    --main-color: #FB8C00;
+}
+
+.el-button--primary,
+.el-header,
+.app-header {
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+
+.el-button--primary {
+    color: #fff !important;
+}
+
+/* 支持自定义主色 */
+body.custom-theme {
+    /* 可通过 JS 动态设置 --main-color */
+}

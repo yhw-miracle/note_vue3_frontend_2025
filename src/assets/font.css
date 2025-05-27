@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'DedaoJinKaiW03';
+    src: url('/fonts/dedaojinkaiw03.ttf') format('truetype');
+    font-display: swap;
+}
+
+:root {
+    --main-font-family: 'DedaoJinKaiW03', 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', 'Arial', sans-serif;
+}
+
+body,
+html,
+.el-container,
+.el-main,
+.el-header,
+.el-aside,
+.el-menu,
+.el-card,
+.el-button,
+.el-input,
+.el-table,
+.el-tag,
+.el-menu-item,
+.el-sub-menu__title,
+.el-menu--vertical {
+    font-family: var(--main-font-family) !important;
+}
